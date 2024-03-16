@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,a,span{
+    font-family: "Roboto";
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins";
+}
+
+header{
+    background-image: url("../image/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115vh;
+}
+
+div.gradient{
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(63, 63, 224, 0.8), rgba(69, 69, 100, 0.75));
+    position: relative;
+}
+
+.gradient .text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.gradient h2{
+    font-size: 110px;
+    line-height: 128px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.gradient h3{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.gradient img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section.transition{
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(90, 90, 238), rgb(38, 38, 51));
+}
+
+.transition > p, .transition > span, .transition > a{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    line-height: 26px;
+    font-family: "Poppins";
+}
+
+.transition a{
+    font-weight: 800;
+}
+
+section.video-consultoria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 35px;
+}
+
+.video-consultoria .description{
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.description h2{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(136, 136, 136);
+}
+
+.vc{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.description .video{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: rgb(69, 69, 100);
+}
+
+.description .consultoria{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: rgb(63, 63, 224);
+}
+
+.description p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: rgb(113, 113, 113);
+}
+
+.fw600{
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+}
+
+.italic{
+    font-style: italic;
+}
+
+.video-consultoria .img{
+    background-color: rgba(63, 63, 224, 0.575);
+    width: 430px;
+    height: 320px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
